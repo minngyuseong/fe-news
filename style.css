@@ -86,6 +86,65 @@ body {
   color: var(--text-default);
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: var(--text-strong);
+}
+
+.selected {
+  color: var(--text-strong);
+}
+
+.available {
+  color: var(--text-weak);
+}
+
+.flex-gap-8 {
+  display: flex;
+  gap: 8px;
+}
+
+.rolling-news-content {
+  display: flex;
+  flex: 1;
+  background-color: var(--surface-alt);
+  border: var(--border-width) solid var(--border-default);
+  padding: 16px;
+  gap: 16px;
+}
+
+.grid-group {
+  display: grid;
+  grid-template-columns: 120px 1fr 120px;
+  align-items: center;
+  background-color: var(--surface-alt);
+}
+
+.grid-tab {
+  display: flex;
+  gap: 24px;
+}
+
+.grid-tab-item {
+  display: flex;
+  gap: 4px;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 16px;
+}
+
 /* ========================================
    Typography Classes
    ======================================== */

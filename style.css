@@ -513,3 +513,14 @@ body {
 .grid-arrow {
   box-shadow: var(--shadow-popup);
 }
+
+.single-line {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.truncate {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

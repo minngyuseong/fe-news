@@ -27,7 +27,7 @@ export function NewsContainer() {
   return `
     <main class="mt-8">
       <div class="flex flex-col gap-4 relative">
-        <div class="flex justify-between">
+        <div class="news-tab-area flex justify-between">
           ${pressModeTab}
           ${viewModeTab}
         </div>

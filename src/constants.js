@@ -10,6 +10,13 @@ export const TAB_VALUE = Object.freeze({
   GRID: "grid",
 });
 
+export const TAB_LABELS = Object.freeze({
+  [TAB_VALUE.ALL]: "전체 언론사",
+  [TAB_VALUE.SUBSCRIBED]: "내가 구독한 언론사",
+  [TAB_VALUE.LIST]: "리스트",
+  [TAB_VALUE.GRID]: "그리드",
+});
+
 export const TAB_TYPE = Object.freeze({
   TEXT: "text",
   ICON: "icon",

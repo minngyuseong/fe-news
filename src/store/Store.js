@@ -10,6 +10,10 @@ export class Store {
     this.listeners = [];
   }
 
+  getState() {
+    return this.state;
+  }
+
   setState(newState) {
     this.state = { ...this.state, ...newState };
 

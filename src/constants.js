@@ -1,6 +1,6 @@
-export const STORE_KEY = Object.freeze({
-  PRESS_MODE: "press-mode",
-  VIEW_MODE: "view-mode",
+export const TAB_GROUP = Object.freeze({
+  PRESS_MODE: "pressMode",
+  VIEW_MODE: "viewMode",
 });
 
 export const TAB_VALUE = Object.freeze({

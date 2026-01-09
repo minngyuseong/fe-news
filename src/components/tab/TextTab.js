@@ -1,4 +1,4 @@
-import { TAB_TYPE, TAB_LABELS } from "../../../src/constants.js";
+import { TAB_TYPE, TAB_LABELS } from "@/constants.js";
 
 export function TextTab({ tabItems, groupName = "default" }) {
   const tabItemsHtml = tabItems

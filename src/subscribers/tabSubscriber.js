@@ -4,10 +4,9 @@ export const tabSubscriber = (state) => {
   const tabTargets = document.querySelectorAll("[data-tab-group]");
 
   tabTargets.forEach((target) => {
-    // tabGroup에 "pressModeTab" 혹은 "viewModeTab"이 담겨 있음
     const { tabItem, tabGroup, tabType } = target.dataset;
 
-    // 대괄호 표기법을 사용하여 state에서 동적으로 값을 꺼내옵니다.
+    // tabGroup이 "pressMode" 또는 "viewMode"로 직접 state 속성과 매칭됨
     const isActive = state[tabGroup] === tabItem;
 
     // 텍스트 탭 처리
